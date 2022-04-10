@@ -6,7 +6,7 @@
     <title>Run Buddy</title>
     <link rel="stylesheet" href="./assets/css/style.css"/>
 </head>
-
+<!--HEADER-->
 <body>
 
      <header>
@@ -20,7 +20,8 @@
                 </ul>
             </nav>
      </header>
-    
+    <!-- end header -->
+    <!-- begin hero section -->
         <section>
             <div>
                 <h3>Get Started Today</h3>
@@ -29,9 +30,9 @@
                     <label for="name">Enter full name:</label>
                     <input id="name" type="text" placeholder="Your Name" name="name"/>
                     <label for="email">Enter email address:</label>
-                    <input id="email" type="text" placeholder="Email Address" name="email"/>
+                    <input id="email" type="email" placeholder="Email Address" name="email"/>
                     <label for="phone">Enter a telephone number:</label>
-                    <input id="phone" type="text" placeholder="Phone Number" name="phone"/>
+                    <input id="phone" type="tel" placeholder="Phone Number" name="phone"/>
                     <p>
                         Have you worked out with a trainer before?
                         <input type="radio" name="trainer-confirm" id="trainer-yes"/>
@@ -39,10 +40,20 @@
                         <input type="radio" name="trainer-confirm" id="trainer-no"/>
                         <label for="trainer-no">No</label>
                     </p>
+                    <p>
+                        <label for="checkbox">
+                                I acknowledge that I am at least 18 years of acknowledge
+                        </label>
+                        <input id="checkbox" type="checkbox" name="age-confirm"/>
+                    </p>
+                    <button type="submit">
+                        Get running!
+                    </button>
                 </form>
             </div>
         </section>
-
+        <!--end hero section-->
+        <!--begin "true" body-->
         <section>
             <h2>What We Do</h2>
         </section>
