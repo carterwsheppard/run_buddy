@@ -393,7 +393,7 @@ background-position: 80%;
 
 .contact-info {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -415,7 +415,6 @@ height: 400px;
   display: inline-block;
   vertical-align: top;
   text-align: left;
-  margin: 30px 0 0 60px;
 }
 
 .contact-info h3 {
@@ -430,9 +429,14 @@ height: 400px;
   font-style: normal;
 }
 
+.contact-form {
+  display: flex;
+  justify-content: space-around;
+}
+
 .contact-form input, .contact-form textarea {
   border: 1px solid var(--secondary-color);
-  display: block;
+  display: flex;
   padding: 7px 15px;
   font-size: 16px;
   color: var(--secondary-color);
